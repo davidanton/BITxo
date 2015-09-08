@@ -12,6 +12,8 @@ BITxo (pronounced */ˈbiʧo/*, Spanish for *bug*) is a bug bot that is able to m
 
 ![](https://github.com/davidanton/BITxo/blob/master/doc/img/PCB.png)
 
+![](https://github.com/davidanton/BITxo/blob/master/doc/img/BITxo.png)
+
 ####Principle of Operation
 
 The voltage is regulated by a linear regulator to 3.3V, the maximum operating voltage of the ERM vibration motors. The time during which the ERM vibration motor stops rotating depends on the RC time constant of *R1* and *C3* as shown in the figure. When the endstop is pressed, the capacitor *C3* charges and the ERM vibration motor *M1* stops vibrating. When the endstop is released, the capacitor would discharge and when its voltage reaches a certain threshold, the p-MOSFET *Q1* would allow *M1* to vibrate again.
@@ -25,3 +27,7 @@ The filtering capacitor *C4* and the flyback diode *D1* are not necessary for th
 Initial tests show that calibration is crucial for a stable forward motion. The pins used as legs don't function very well in that regard. A suggestion small slanted brushes, adding homogeneity, stability and allowing forward motion due to their slanted bristle position.
 
 The performance of the capacitor circuit is not as reliable as first thought. An implementation using a microcontroller such as an ATtiny would be the next step in the design process.
+
+####Video
+
+https://www.youtube.com/watch?v=kGmnQzfZgtA
