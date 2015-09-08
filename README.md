@@ -14,9 +14,9 @@ BITxo (pronounced */ˈbiʧo/*, Spanish for *bug*) is a bug bot that is able to m
 
 ![](https://github.com/davidanton/BITxo/blob/master/doc/img/BITxo.png)
 
-![](https://github.com/davidanton/BITxo/blob/master/doc/img/prototype1.png)
+![](https://github.com/davidanton/BITxo/blob/master/doc/img/prototype1.jpg)
 
-![](https://github.com/davidanton/BITxo/blob/master/doc/img/prototype2.png)
+![](https://github.com/davidanton/BITxo/blob/master/doc/img/prototype2.jpg)
 
 ####Principle of Operation
 
